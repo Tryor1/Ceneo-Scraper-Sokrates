@@ -2,7 +2,7 @@
 - hosts: flaskapp_nodes
   become: yes
   vars: 
-    APP_REPO: "https://github.com/Tryor1/ceneo_scraper"
+    APP_REPO: "https://github.com/jan-podolanko/CeneoScrapper"
     APP_NAME: "ceneoscrapper"
   tasks:
     - name: "os packages python3-pip git" 
